@@ -90,3 +90,13 @@ and then you can normally use Flameshot (e.g `flameshot gui`)
 **Symptom:** Launcher (right-click on tray icon, then "Open Launcher") does not show anything in the preview section (left-side of the window)
 
 You install `xdg-desktop-portal-kde` and `xdg-desktop-portal`.
+
+## Overlay issue on multi monitor setups
+
+**Symptom:** Screenshot overlay only appears on one monitor when you have multiple monitors [#3073](https://github.com/flameshot-org/flameshot/issues/3073)
+
+Apply window rules as [suggested here](https://github.com/flameshot-org/flameshot/issues/3073#issuecomment-1740187784). 
+
+**Note:** Pin image on desktop feature will also get these rules
+
+![kwin window rules](/media/content/docs/guide/wayland-help/2024-07-05_kde_kwin_rule_fix_overlay.png "Screenshot of the settings in KDE window rules which fixes overlay problems on multi monitor setup")
